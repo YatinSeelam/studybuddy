@@ -46,9 +46,9 @@ const tools = [
           <span className="text-sm font-medium text-textPrimary">Question 2</span>
         </div>
         <p className="text-sm text-textPrimary mb-3">When did the revolutionary war begin?</p>
-        <input 
-          type="text" 
-          placeholder="April 19th, 1775" 
+        <input
+          type="text"
+          placeholder="April 19th, 1775"
           className="w-full p-2 border border-gray-300 rounded text-sm"
         />
         <button className="mt-2 bg-primary-500 text-white px-4 py-1 rounded text-sm">Check</button>
@@ -133,11 +133,11 @@ const StudyTools = () => {
                 </div>
                 <h3 className="text-xl font-semibold">{tool.title}</h3>
               </div>
-              
+
               <p className="text-primary-100 mb-6 text-sm leading-relaxed">
                 {tool.description}
               </p>
-              
+
               <div className="mt-4">
                 {tool.demo}
               </div>

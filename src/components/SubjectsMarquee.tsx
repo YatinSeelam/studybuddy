@@ -23,7 +23,7 @@ const SubjectsMarquee = () => {
           Get expert help across all academic disciplines
         </p>
       </div>
-      
+
       <div className="marquee-container relative">
         <div className="marquee-content flex space-x-6 items-center">
           {[...subjects, ...subjects, ...subjects].map((subject, index) => (
@@ -38,7 +38,7 @@ const SubjectsMarquee = () => {
             </div>
           ))}
         </div>
-        
+
         {/* Fade overlays */}
         <div className="absolute top-0 left-0 w-32 h-full bg-gradient-to-r from-primary-50 to-transparent z-10 pointer-events-none"></div>
         <div className="absolute top-0 right-0 w-32 h-full bg-gradient-to-l from-accent-50 to-transparent z-10 pointer-events-none"></div>
